@@ -1,4 +1,4 @@
-# JSPy
+# JSPy ![Build Status](https://travis-ci.org/rithik/JSPy.svg?branch=master)
 
 ## Run JavaScript through Python
 
