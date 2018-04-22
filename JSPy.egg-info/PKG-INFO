@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: JSPy
+Version: 0.4
+Summary: Python Library that runs Javascript
+Home-page: https://github.com/rithik/JSPy
+Author: Rithik Yelisetty
+Author-email: rithik@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

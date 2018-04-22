@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+JSPy/__init__.py
+JSPy.egg-info/PKG-INFO
+JSPy.egg-info/SOURCES.txt
+JSPy.egg-info/dependency_links.txt
+JSPy.egg-info/entry_points.txt
+JSPy.egg-info/top_level.txt
