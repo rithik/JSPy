@@ -5,7 +5,7 @@ python:
         - "3.5"
         - "3.6"
 before_install:
-        - chmod +x build.sh
+        - chmod +x run_build.sh
 install:
         - pip install -r requirements.txt
 script: ./run_build.sh
