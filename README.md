@@ -14,9 +14,20 @@ If you would like to execute a JavaScript File, use the command `print(JSPy.exec
 
 ## Common Errors
 
-If you get a JavaScript Runtime Error, you can fix this by running `sudo apt-get install nodejs`. This will configure the JavaScript Runtime Environment.
+If you get a JavaScript Runtime Error, you can use the following commands:
+```
+sudo apt-get install npm
+sudo apt-get install nodejs
+```
 
-If you are using a Windows Computer/Server, download nodejs from [https://nodejs.org/](https://nodejs.org/en/). You may have to restart your computer/server for this to be configured.
+If you do not have sudo permissions, you can use the following commands: 
+```
+curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
+nvm install stable
+nvm alias default stable
+```
+
+If you are using a Windows Computer/Server, download `nodejs` from [https://nodejs.org/](https://nodejs.org/en/). You may have to restart your computer/server for this to be configured.
 
 ## Unnoticed Errors
 
