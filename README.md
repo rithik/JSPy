@@ -15,13 +15,13 @@ If you would like to execute a JavaScript File, use the command `print(JSPy.exec
 ## Common Errors
 
 If you get a JavaScript Runtime Error, you can use the following commands:
-```
+```bash
 sudo apt-get install npm
 sudo apt-get install nodejs
 ```
 
 If you do not have sudo permissions, you can use the following commands: 
-```
+```bash
 curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
 nvm install stable
 nvm alias default stable
