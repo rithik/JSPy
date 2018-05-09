@@ -10,7 +10,7 @@ In your code, you must import JSPy package by including `import JSPy`.
 
 To execute JavaScript, use the command `JSPy.exec(JAVASCRIPT_STRING)`, where the `JAVASCRIPT_STRING` is the JavaScript you would like to run. This will automatically run the file and return anything that the system returns.
 
-If you would like to execute a JavaScript File, use the command `print(JSPy.exec("FILE_PATH", "file"))`, where `FILE_PATH` is the complete path from the root directory. This will automatically run the file and return anything that the system returns.
+If you would like to execute a JavaScript File, use the command `print(JSPy.exec("FILE", "file"))`, where `FILE` is the filename. This will automatically run the file and return anything that the system returns. If an error is thrown relating to the filename, you may have to include the file path.
 
 ## Common Errors
 
@@ -32,3 +32,4 @@ If you are using a Windows Computer/Server, download `nodejs` from [https://node
 ## Unnoticed Errors
 
 If you would like to report any errors, please open an issue. If you know how to fix the issue, please submit appropiate changes.
+
