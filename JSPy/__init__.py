@@ -1,3 +1,4 @@
+import os
 import subprocess
 import tempfile
 
@@ -21,5 +22,9 @@ def exec(data, jstype='string'):
         proc.wait()
         tempf.seek(0)
         output_string += tempf.read().decode('utf-8')
+    
+    if jstype == "string": 
+        os.remove('test.js')
 
     return output_string
+
