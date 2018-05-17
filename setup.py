@@ -1,8 +1,11 @@
 from setuptools import setup
 
+long_description = open("README.rst", "r").read() 
+
 setup(name='JSPy',
       description='Python Library that runs Javascript',
-      version='0.4',
+      version='1.0.0',
+      long_description=long_description,
       url='https://github.com/rithik/JSPy',
       author='Rithik Yelisetty',
       author_email='rithik@gmail.com',

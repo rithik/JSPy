@@ -20,7 +20,7 @@ sudo apt-get install npm
 sudo apt-get install nodejs
 ```
 
-If you do not have sudo permissions, you can use the following commands: 
+If you do not have sudo permissions, you can use the following commands:
 ```bash
 curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash
 nvm install stable
@@ -31,5 +31,4 @@ If you are using a Windows Computer/Server, download `nodejs` from [https://node
 
 ## Unnoticed Errors
 
-If you would like to report any errors, please open an issue. If you know how to fix the issue, please submit appropiate changes.
-
+If you would like to report any errors, please open an issue. If you know how to fix the issue, please submit appropriate changes.
